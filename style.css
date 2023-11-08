@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(0, 0, 0)   ;
+    color: rgb(186, 0, 186);
+    text-align: center;
+}
+.opcoes button {
+    background-color: #750082;
+    color: rgb(199, 0, 199);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: solid rgb(85, 0, 85);
+    border-radius: 9px;
+    cursor: pointer; /* Altera o cursor ao passar o mouse sobre os botões */
+    transition: background-color 0.3s;
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  .opcoes button:hover {
+    background-color: #531f6e;
+  }
+  
+
+.opcoes a{
+    text-decoration: none;
+    color: rgb(212, 35, 212);
+    font-size: 30px;
+}
+
+.opcoes button { 
+    background-color: rgb(40, 8, 40);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    transition: box-shadow 0.3s; /* Adiciona transição suave para a sombra */
+  }
+  
+  .opcoes button:hover {
+    box-shadow: 0 0 10px 5px #9c01b8; /* Gradiente de cor usando box-shadow */
+  }
+  
+  .voltar {
+    background-color: black; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+    border-radius: 5px; /* Borda arredondada */
+  }
+  
+  .voltar:hover {
+    background-color: black /* Cor de fundo do botão ao passar o mouse */
+  }
+  
+  .voltar::before {
+    content: "\2190"; /* Adiciona uma seta esquerda como conteúdo antes do texto */
+    margin-right: 5px; /* Espaço entre a seta e o texto */
+  }
+
+  @media screen and (max-width:1020px) {
+    .accordion-item {
+    width: 400px;
+    text-align: center 
+    }
+    }
+  
+
+
+/* .opcoes button:hover{
+   box-shadow:0 0 30px purple ;
+} */
