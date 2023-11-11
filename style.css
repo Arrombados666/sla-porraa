@@ -43,6 +43,32 @@ body{
     box-shadow: 0 0 10px 5px #9c01b8; /* Gradiente de cor usando box-shadow */
   }
   
+  .voltar {
+    background-color: black; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+    border-radius: 5px; /* Borda arredondada */
+  }
+  
+  .voltar:hover {
+    background-color: black /* Cor de fundo do botão ao passar o mouse */
+  }
+  
+  .voltar::before {
+    content: "\2190"; /* Adiciona uma seta esquerda como conteúdo antes do texto */
+    margin-right: 5px; /* Espaço entre a seta e o texto */
+  }
+
+  @media screen and (max-width:1020px) {
+    .accordion-item {
+    width: 400px;
+    text-align: center 
+    }
+    }
+  
+
 
 /* .opcoes button:hover{
    box-shadow:0 0 30px purple ;
