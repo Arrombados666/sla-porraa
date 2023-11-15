@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+.recuperacoes button {
+    background-color: #750082;
+    color: rgb(199, 0, 199);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: solid rgb(85, 0, 85);
+    border-radius: 9px;
+    cursor: pointer; /* Altera o cursor ao passar o mouse sobre os botões */
+    transition: background-color 0.3s;
+    font-size: 30px;
+    margin: 10px;
+  }
+  
+  .recuperacoes button:hover {
+    background-color: #531f6e;
+  }
+  
+
+.recuperacoes a{
+    text-decoration: none;
+    color: rgb(212, 35, 212);
+    font-size: 30px;
+}
+
+.recuperacoes button { 
+    background-color: rgb(40, 8, 40);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    transition: box-shadow 0.3s; /* Adiciona transição suave para a sombra */
+  }
+  
+  .recuperacoes button:hover {
+    box-shadow: 0 0 10px 5px #9c01b8; /* Gradiente de cor usando box-shadow */
+  }

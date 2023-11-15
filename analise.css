@@ -3,7 +3,7 @@
 body{
     background-color: rgb(0, 0, 0);
     color: rgb(240, 0, 240);
-    
+
 }
 h1 {
 text-align: center;
@@ -14,12 +14,10 @@ section{
 }
 
 .accordion-item {
-    border: 5px solid #29272a;
+    border: 1px solid #aa00ff;
     margin-bottom: 10px;
     background-color: #4c007218;
     text-align: center;
-    width: 800px;
-    margin: 0 auto;
 }
 
 .accordion-title {
@@ -27,13 +25,11 @@ section{
     padding: 10px;
     cursor: pointer;
     text-align: center;
-    font-size: 50px;
 }
 
 .accordion-content {
     display: none;
     padding: 10px;
-    font-size: 50px;
 }
 
 img {
@@ -58,3 +54,10 @@ img {
     margin-right: 5px; /* Espaço entre a seta e o texto */
   }
 
+  @media screen and (max-width:1020px) {
+    .accordion-item {
+    width: 480px;
+    text-align: center;
+    }
+    }
+  

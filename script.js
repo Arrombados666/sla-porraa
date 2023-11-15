@@ -19,5 +19,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 function redirecionar(url) {
-    window.open(url, "_blank");
+    window.location.href = url;
 }
